@@ -1,12 +1,12 @@
 public class SlimeBase extends OSCBase {
 	// host name and port
-	string hostname[3];
-	"shrpi" => hostname[0];
-	"shmac" => hostname[1];
-	"192.168.0.9" => hostname[2];
-	//"192.168.0.5" => hostname[3];
-	//"192.168.0.6" => hostname[4];
-	//"192.168.0.7" => hostname[5];
+	string hostname[6];
+	"shrpi.slime.test" => hostname[0];
+	"shmac.slime.test" => hostname[1];
+	"jbrpi.slime.test" => hostname[2];
+	"jblap.slime.test" => hostname[3];
+	"sfrpi.slime.test" => hostname[4];
+	"sfmac.slime.test" => hostname[5];
 	10000 => portNumber;
 
 hostname.size() =>  int slimeSize;
