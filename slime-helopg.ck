@@ -31,9 +31,9 @@ function void slimeCore(string ns, float f)
         {
                 //hostname[i] => string nss;
                 sendOSC(hostname[i],portNumber,ns,f);
-                <<< hostname[i] >>>;
+               // <<< hostname[i] >>>;
         }
-
+<<< ns >>>;
 }
 
 function void slimeCore(string ns, int i1)
@@ -42,9 +42,9 @@ function void slimeCore(string ns, int i1)
         {
                 //hostname[i] => string nss;
                 sendOSC(hostname[i],portNumber,ns,i1);
-                <<< hostname[i] >>>;
+                // <<< hostname[i] >>>;
         }
-
+<<< ns >>>;
 }
 
 function void slimeCore(string ns, int i1, int i2)
@@ -53,9 +53,9 @@ function void slimeCore(string ns, int i1, int i2)
         {
                 //hostname[i] => string nss;
                 sendOSC(hostname[i],portNumber,ns,i1,i2);
-                <<< hostname[i] >>>;
+          //      <<< hostname[i] >>>;
         }
-
+<<< ns >>>;
 }
 
 function void send()
